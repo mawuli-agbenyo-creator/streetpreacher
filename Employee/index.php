@@ -113,7 +113,7 @@ if (empty($_SESSION['login_email'])) {
                             </div>
 
                             <div class="ibox-content">
-                                <h3 class="no-margins">N<?php echo number_format((float) $basic_salary, 2); ?>
+                                <h3 class="no-margins">GHS<?php echo number_format((float) $basic_salary, 2); ?>
                                 </h3>
                                 <small> </small>
                             </div>
@@ -127,7 +127,7 @@ if (empty($_SESSION['login_email'])) {
                             </div>
 
                             <div class="ibox-content">
-                                <h3 class="no-margins">N<?php echo number_format((float) $gross_pay, 2); ?>
+                                <h3 class="no-margins">GHS<?php echo number_format((float) $gross_pay, 2); ?>
                                 </h3>
                                 <small> </small>
                             </div>

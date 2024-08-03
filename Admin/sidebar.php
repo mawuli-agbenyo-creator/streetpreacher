@@ -56,7 +56,7 @@
 
 <li class="nav-item">
   <a href="add_employee.php" class="nav-link">
-    <p>Admin Employees</p>
+    <p>Add Employees</p>
   </a>
 </li>
 
