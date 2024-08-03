@@ -81,13 +81,10 @@ $_SESSION['error']=' Wrong Username and Password';
           </div>
         </div>
         <div class="row">
-          <div class="col-8">
-            <div class="icheck-primary">
-              <input type="checkbox" id="remember">
-              <label for="remember">
-                Remember Me
-              </label>
-            </div>
+        <div class="col-8">
+              <div>
+                <p>Home Page <a href="../">Click Here</a></p>
+              </div>
           </div>
           <!-- /.col -->
           <div class="col-4">

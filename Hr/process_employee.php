@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $status = $_POST['status'];
     $leave_status = $_POST['leave_status'];
     //add department
-    $department_name = $_POST['department_name'];
+    $department_name = $_POST['dept'];
 
     // // Handle file upload
     // $photo = $_FILES['photo']['name'];
@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         employeeID, fullname, password, sex, email, dob, phone, address,
         qualification, dept, employee_type, date_appointment, basic_salary,
         gross_pay, status, leave_status,
-        department_name
+        deparment
     ) VALUES (
         ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?
     )";
@@ -60,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($stmt->execute()) {
             // Redirect to success page or display success message
             echo "Employee added successfully!";
-            header("Location: view_employees.php"); // Redirect to the employees list page
+            header("Location: employees.php"); // Redirect to the employees list page
         } else {
             // Handle query error
             echo "Error: " . $stmt->error;

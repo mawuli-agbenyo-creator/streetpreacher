@@ -222,7 +222,7 @@ if(empty($_SESSION['login_email']))
                                         </a>
                                         <div class="media-body ">
                                             <small class="pull-right text-navy"></small>
-                                            <strong>Basic Salary :</strong>                   N<?php echo number_format((float) $basic_salary, 2); ?>  <br>
+                                            <strong>Basic Salary :</strong>                   GHS<?php echo number_format((float) $basic_salary, 2); ?>  <br>
                                         </div>
                                     </div>
                                     <div class="feed-element">
@@ -230,7 +230,7 @@ if(empty($_SESSION['login_email']))
                                         </a>
                                         <div class="media-body ">
                                             <small class="pull-right text-navy"></small>
-                                            <strong>Gross Pay :</strong>                    N<?php echo number_format((float) $gross_pay, 2); ?>  <br>
+                                            <strong>Gross Pay :</strong>                    GHS<?php echo number_format((float) $gross_pay, 2); ?>  <br>
                                         </div>
                                     </div>
                                     <div class="feed-element">

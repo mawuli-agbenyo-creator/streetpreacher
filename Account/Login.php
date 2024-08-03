@@ -83,7 +83,7 @@ $_SESSION['error']=' Wrong Email Address and Password';
                                         <button name="btnlogin" type="submit" class="btn btn-dark">Login</button>
                                     </div>
                                     <div>
-                                        <p>Not an Employee Yet? <a href="registration.php">Register Here</a></p>
+                                        <p>Home Page <a href="../">Click Here</a></p>
                                     </div>
                                 </div>
 

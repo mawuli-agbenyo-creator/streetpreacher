@@ -7,7 +7,7 @@
   </a>
 </li>
 
-<li class="nav-item">
+<!-- <li class="nav-item">
   <a href="#" class="nav-link">
     <p>
       User Management
@@ -40,7 +40,7 @@
       </a>
     </li>
   </ul>
-</li>
+</li> -->
 
 <li class="nav-item">
   <a href="leave_record.php" class="nav-link">
@@ -56,7 +56,7 @@
 
 <li class="nav-item">
   <a href="add_employee.php" class="nav-link">
-    <p>Admin Employees</p>
+    <p>Add Employees</p>
   </a>
 </li>
 

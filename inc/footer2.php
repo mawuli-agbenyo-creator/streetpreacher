@@ -6,6 +6,6 @@
 -->
 </style>
  <div class="footer style3">
-<div class="style4"> <p align="center" class="style5"> Copyright @ [<?php echo date("Y")?>] | An Employee Management System |Crafted By: Asuquo ,Caroline Bassey|AKP/ASC/CSC/HND2021/1477 | All Rights Reserved </p>
+<div class="style4"> <p align="center" class="style5"> Copyright @ [<?php echo date("Y")?>] | An HR Management System | All Rights Reserved </p>
 </div>
 </div>

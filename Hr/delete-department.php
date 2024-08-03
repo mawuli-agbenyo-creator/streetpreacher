@@ -20,16 +20,16 @@ if(isset($_GET['id'])) {
         $stmt->execute();
 
         // Redirect with a success message
-        header("Location: list_departments.php?msg=Department+deleted+successfully");
+        header("Location: list_department.php?msg=Department+deleted+successfully");
         exit();
     } catch (Exception $e) {
         // Redirect with an error message
-        header("Location: list_departments.php?msg=Error+deleting+department");
+        header("Location: list_department.php?msg=Error+deleting+department");
         exit();
     }
 } else {
     // Redirect if no ID is provided
-    header("Location: list_departments.php?msg=No+department+ID+provided");
+    header("Location: list_department.php?msg=No+department+ID+provided");
     exit();
 }
 ?>
